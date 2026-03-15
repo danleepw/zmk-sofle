@@ -77,9 +77,22 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <16 17>;
+            bindings = <&kp ESC>;
+        };
+        
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <29 30>;
+            bindings = <&kp TAB>;
+        };
+
+        combo_bks {
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&kp BACKSPACE>;
         };
     };
 
