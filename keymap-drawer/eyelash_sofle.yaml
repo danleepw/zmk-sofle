@@ -326,5 +326,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [14, 28, 40]
-  k: '&soft_off'
+- p: [16, 17]
+  k: $$mdi:keyboard-esc$$
+- p: [29, 30]
+  k: $$mdi:keyboard-tab$$
+- p: [21, 22]
+  k: {t: '$$mdi:backspace$$', type: backspace}
