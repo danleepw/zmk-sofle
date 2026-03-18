@@ -328,3 +328,5 @@ layers:
 combos:
 - p: [21, 22]
   k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [57, 59]
+  k: LSHFIT
