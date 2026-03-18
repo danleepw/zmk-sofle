@@ -82,6 +82,12 @@
             key-positions = <21 22>;
             bindings = <&kp BACKSPACE>;
         };
+
+        combo_shift {
+            timeout-ms = <50>;
+            key-positions = <57 59>;
+            bindings = <&kp LSHFIT>;
+        };
     };
 
     macros {
